@@ -9,9 +9,11 @@ export class PersonasComponent{
     deshabilitar = false;
     mensaje = 'No se ha agregado ninguna persona';
     titulo = "Ingeniero S";
+    mostrar = false;
 
     agregarPersona(){
         this.mensaje = 'Persona agregada';
+        this.mostrar = true;
     }
 
     modificarTitulo(event: Event){
